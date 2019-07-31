@@ -1,9 +1,11 @@
 import React from 'react';
 
+import CountryContainer from './container/CountryContainer';
+
 function App() {
   return (
     <div className="App">
-      <CountryConteiner />
+    <CountryContainer />
     </div>
   );
 }
