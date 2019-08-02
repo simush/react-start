@@ -1,6 +1,48 @@
   img {
     width: 75px;
   }
+
+  input{
+    display: flex;
+    margin-bottom: 15px;
+    border-color: black;
+    width: 200px;
+    height: 30px;
+
+  }
+  .searchBtn{
+    display: flex;
+    margin-bottom: 15px;
+    background-color: aqua; 
+    width: 100px;
+    height: 30px;  
+    }
+  .Dialog{
+   width: 500px;
+   max-width: 100%;
+   margin: 0 auto;
+   position: fixed;
+   left: 50%;
+   top: 20%;
+   transform: translate(-50%,-50%);
+   z-index: '999';
+   background-color: antiquewhite;
+   padding: 10px 20px 40px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: 'column'
+  }
+  .buttonStyle{
+    margin-bottom: '15px';
+    padding: '3px 8px';
+    cursor: pointer;
+    border-radius: '50%';
+    border: none;
+    width: '30px';
+    height: '30px';
+    font-weight: bold;
+    align-self: 'flex-end'
+  }
   /*
   ul {
     margin: 0;
