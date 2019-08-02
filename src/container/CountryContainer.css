@@ -11,11 +11,15 @@
 
   }
   .searchBtn{
-    display: flex;
+    margin-bottom: '15px';
     margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: '50%';
     background-color: aqua; 
     width: 100px;
-    height: 30px;  
+    height: 30px; 
+    font-weight: bold;
+    align-self: 'flex-and'; 
     }
   .Dialog{
    width: 500px;

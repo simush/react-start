@@ -1,13 +1,34 @@
-    import React, { Component } from 'react'
+// import React, { Component } from 'react';
 
-   function Dialog(props) {
-       return (
-        <div className="Dialog">
-            <button className="buttonStyle">OK</button>
 
-          <div> {props.someText} </div>
-        </div>
-       );
-   }
+// class Dialog extends Component {
 
-export default Dialog;
+// show = (r) => {
+//   alert(r);
+// }
+
+//   render() {
+//     let a = (
+//     <div>
+//       <div className="Dialog">
+//         <button
+//           className="buttonStyle"
+//           onClick={this.props.closeFunc}
+//         >Ok
+//         </button>
+//       </div>
+//     </div>
+//     )
+//     if (!this.props.isOpen) {
+//       a = null;
+//     }
+//     return (
+//       <div>
+//         {a}
+//       </div>
+//     );
+//   }
+// }
+
+
+// export default Dialog;   
